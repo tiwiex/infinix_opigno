@@ -1,0 +1,9 @@
+infinix_conf.settings:
+  title: 'Infinix Configuration'
+  description: 'Edit the sign-in message and other settings.'
+  route_name: infinix_conf_form
+  parent: system.admin_config_system
+
+
+
+

@@ -1,0 +1,7 @@
+infinix_conf_form:
+  path: '/admin/config/system/infinix-configuration'
+  defaults:
+    _form: '\Drupal\infinix_conf\Form\InfinixConfigForm'
+    _title: 'Infinix Configuration'
+  requirements:
+    _permission: 'administer site configuration'

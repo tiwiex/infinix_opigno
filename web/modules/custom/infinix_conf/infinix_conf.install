@@ -1,0 +1,11 @@
+<?php
+
+/**
+* Implements hook_install().
+*/
+function infinix_conf_install() {
+	\Drupal::configFactory()->getEditable('infinix_conf.settings')
+	->set('signin_message', 'SIGN IN TO INFINIX')
+	->save();
+}
+

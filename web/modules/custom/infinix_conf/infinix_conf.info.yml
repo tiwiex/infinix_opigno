@@ -1,0 +1,6 @@
+name: 'Infinix Configuration'
+type: module
+description: 'Provides configuration for dynamic sign-in message and other values.'
+core_version_requirement: ^9 || ^10
+package: Custom
+
