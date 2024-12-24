@@ -1,0 +1,7 @@
+name: 'Infinix Tech Cloud  Opigno Theme'
+type: theme
+base theme: 'aristotle' # Replace with the actual machine name of the Opigno theme.
+description: 'A subtheme from Opigno for Infinix Tech Cloud'
+version: '1.0'
+core_version_requirement: ^9 || ^10
+
