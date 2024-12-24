@@ -40,7 +40,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 script {
-                    // Replace with your actual test commands
+                    // Replaced with your actual test commands
                     sh './vendor/bin/phpunit'
                 }
             }
