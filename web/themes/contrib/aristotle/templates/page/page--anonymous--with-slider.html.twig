@@ -19,16 +19,20 @@
         {% block content %}
         <div class="form-wrapper user-login" data-target="{{ path('user.login') }}"
           {% if route_name == 'user.pass' or route_name == 'user.register' %}style="display: none;"{% endif %}>
-          <h1>{{ signin_message }}</h1>
+          <h1>{{ 'SIGN IN TO OPIGNO'|t }}</h1>
           {{ login_form }}
-            <div class="create-account">
-    <div align="right"><a href="{{ path('user.register') }}">{{ 'Create New Account'|t }}</a></div>
-  </div>
 
           <div class="status_messages">
             {{ page.status_messages }}
           </div>
 
+          {% if opigno_demo != TRUE %}
+            <div class="switch-link switch-link-bottom text-center">
+              {% if register != 'admin_only' %}
+                <div><a href="{{ path('user.register') }}">{{ 'Create new account'|t }}</a></div>
+              {% endif %}
+            </div>
+          {% endif %}
         </div>
 
         <div class="form-wrapper user-password" data-target="{{ path('user.pass') }}"

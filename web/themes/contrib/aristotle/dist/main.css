@@ -16522,7 +16522,7 @@ form .meeting-start-soon #edit-cancel, .meeting-start-soon form .form-submit, fo
   margin-bottom: 8px;
 }
 .profile-info__pic {
-  border-radius: 20%;
+  border-radius: 50%;
   height: 10.375rem;
   margin-bottom: 13px;
   overflow: hidden;
