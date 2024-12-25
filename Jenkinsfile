@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Replace with your Jenkins credential ID for SSH key
         GIT_CREDENTIALS_ID = 'f3d1e4c7-8b8f-44f0-bed1-942405f57038'
-        // Replace with your GitHub repository URL
+        // Rreplace with your GitHub repository URL
         REPO_URL = 'git@github.com:tiwiex/infinix_opigno.git'
     }
 
