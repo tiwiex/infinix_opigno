@@ -90,7 +90,9 @@
         "drupal/easy_email": "^3.0",
         "drupal/css_editor": "^2.0",
         "drupal/content_reporting": "^1.1@beta",
-        "drupal/phone_number": "^2.0@alpha"
+        "drupal/phone_number": "^2.0@alpha",
+        "drupal/rules": "^4.0",
+        "drupal/nodeaccess": "^2.0@alpha"
     },
     "require-dev": {
         "drush/drush": "^12.5",
